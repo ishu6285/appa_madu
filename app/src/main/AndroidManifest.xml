@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/lgb"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Burgerapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
+        <activity
+            android:name=".cart"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".d4"
+            android:exported="false" />
+        <activity
+            android:name=".d3"
+            android:exported="false" />
+        <activity
+            android:name=".d2"
+            android:exported="false" />
+        <activity
+            android:name=".d1"
+            android:exported="false" />
+        <activity
+            android:name=".item44"
+            android:exported="false" />
+        <activity
+            android:name=".item33"
+            android:exported="false" />
+        <activity
+            android:name=".item22"
+            android:exported="false" />
+        <activity
+            android:name=".item11"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".item4"
+            android:exported="false" />
+        <activity
+            android:name=".item3"
+            android:exported="false" />
+        <activity
+            android:name=".item2"
+            android:exported="false" />
+        <activity
+            android:name=".iteam1"
+            android:exported="false" />
+        <activity
+            android:name=".drinks"
+            android:exported="false" />
+        <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
+            android:name=".Home_page_meat"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Page"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpPage"
+            android:exported="false" />
+        <activity
+            android:name=".getstarted"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/colourtemp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp">
+
+       <!-- <androidx.cardview.widget.CardView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="10sp">
+
+            <ImageButton
+                android:id="@+id/backbtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"></ImageButton>
+        </androidx.cardview.widget.CardView>
+        -->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="#80FF9800"
+            android:gravity="center"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10dp"
+            android:text="Profile"
+            android:id="@+id/profile"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile"
+            android:id="@+id/name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:text="Name"
+            android:textColor ="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/settextname"
+            android:layout_below="@+id/name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:text=""
+            android:textColor ="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/view1"
+            android:layout_below="@+id/settextname"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@color/black">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view2"
+            android:id="@+id/email"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:text="Email"
+            android:textColor ="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/settextemail"
+            android:layout_below="@+id/email"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:text=""
+            android:textColor ="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/view3"
+            android:layout_below="@+id/settextemail"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@color/black">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:id="@+id/address"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:text="Address"
+            android:textColor ="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/settextaddress"
+            android:layout_below="@+id/address"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:text=""
+            android:textColor ="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/view2"
+            android:layout_below="@+id/settextaddress"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@color/black">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view3"
+            android:id="@+id/phonenumber"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:text="Mobile Number"
+            android:textColor ="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/settexphonenumber"
+            android:layout_below="@+id/phonenumber"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:text=""
+            android:textColor ="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/view4"
+            android:layout_below="@+id/settexphonenumber"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@color/black">
+
+        </View>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@+id/view4"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:text="Back"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:id="@+id/backbtn"
+            android:backgroundTint="@color/black">
+        </Button>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="30dp"
+         android:layout_marginEnd="30dp"
+         android:layout_below="@+id/backbtn"
+         android:layout_marginTop="10dp"
+         android:textStyle="bold"
+         android:text="Sign Out"
+         android:textSize="30dp"
+         android:textColor="@color/white"
+         android:id="@+id/signout"
+         android:backgroundTint="#FF0000">
+     </Button>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

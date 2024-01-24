@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/colourtemp"
+    tools:context=".getstarted">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="King Of The Burger"
+        android:textColor="#001AA8"
+        android:textSize="35sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_below="@+id/txt1"
+        android:id="@+id/img1"
+        android:src="@drawable/gets">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Enjoy Eating..."
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#001AA8"
+        android:id="@+id/txt2"
+        android:layout_below="@+id/img1">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="&quot;Experience the ultimate convenience of ordering mouthwatering burgers at your fingertips with our Online Burger Ordering App. Explore a delectable menu, customize your perfect burger, and enjoy seamless, contactless delivery or pickup. Savor the flavors of quality ingredients and indulge in a burger bliss that's just a few taps away&quot;"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:id="@+id/txt4"
+        android:layout_below="@+id/txt2">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All the delicious Burgers on your phone"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="center"
+        android:textColor="#001AA8"
+        android:id="@+id/txt3"
+        android:layout_below="@+id/txt2">
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#882708"
+        android:text="Get Started"
+        android:textSize="29sp"
+        android:id="@+id/btn11"
+        android:layout_marginTop="35sp">
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/count">
+
+    </TextView>
+
+
+
+
+
+</LinearLayout>
