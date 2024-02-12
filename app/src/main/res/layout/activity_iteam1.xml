@@ -51,7 +51,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="50sp"
-            android:text="BBQ Piston(C)"
+            android:text=""
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="40dp">
@@ -70,7 +70,7 @@
                 android:layout_width="250sp"
                 android:layout_height="250sp"
                 android:layout_gravity="center"
-                android:src="@drawable/burger22">
+                android:src="@drawable/b1">
             </ImageView>
 
             <TextView
@@ -120,7 +120,8 @@
                 android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:text="&quot; chicken breast, iceberg lettuce, red onions, melted white cheddar, crispy onion rings, BBQ sauce topped with our signature sauces on a toasted bun &quot;">
+                android:text="&quot;The Hobbit by J.R.R. Tolkien
+Description Bilbo Baggins, a hobbit from the Shire, is swept into an epic adventure when he joins a group of dwarves on a quest to reclaim their homeland from the dragon Smaug. Along the way, they encounter trolls, goblins, elves, and other fantastical creatures &quot;">
             </TextView>
 
             <Button
@@ -132,7 +133,7 @@
                 android:text="Add to cart"
                 android:textColor="@color/white"
                 android:textSize="25sp"
-                android:backgroundTint="@color/black">
+                android:backgroundTint="#2196F3">
             </Button>
 
 

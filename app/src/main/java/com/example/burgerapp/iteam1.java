@@ -47,14 +47,14 @@ public class iteam1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Drawable drawable =getResources().getDrawable(R.drawable.burger1);
+        Drawable drawable =getResources().getDrawable(R.drawable.b1);
         BitmapDrawable bitmapDrawable = (BitmapDrawable) drawable;
         Bitmap bitmap = bitmapDrawable.getBitmap();
         cart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(iteam1.this, Cart.class);
-                intent.putExtra("productName", "BBQ Piston - Crispy");
+                intent.putExtra("productName", "TREASURE ISLAND");
                 intent.putExtra("productQuantity",q);
                 intent.putExtra("productPrice",itemP);
                 intent.putExtra("productImageResId",bitmap);

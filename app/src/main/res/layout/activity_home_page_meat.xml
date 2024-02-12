@@ -16,7 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/colourtemp"
+            android:background="@color/white"
             android:orientation="vertical"
             tools:layout_editor_absoluteX="39dp"
             tools:layout_editor_absoluteY="-205dp">
@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:backgroundTint="@color/black"
+                android:backgroundTint="#2196F3"
                 android:text="Notifications"
                 android:textColor="@color/white"
                 android:textSize="20sp"
@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60sp"
                 android:layout_marginTop="5sp"
-                app:cardBackgroundColor="#80FF9800">
+                app:cardBackgroundColor="@color/white">
 
                 <Button
                     android:id="@+id/homemeat"
@@ -46,7 +46,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
                     android:layout_marginTop="5sp"
-                    android:backgroundTint="@color/black"
+                    android:backgroundTint="#2196F3"
                     android:text="Home"
                     android:textColor="@color/white"
                     android:textSize="20sp"
@@ -58,7 +58,7 @@
                     android:layout_width="120sp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:backgroundTint="@color/black"
+                    android:backgroundTint="#2196F3"
                     android:text="Cart"
                     android:textColor="@color/white"
                     android:textSize="20sp"
@@ -72,7 +72,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:layout_marginTop="5sp"
-                    android:backgroundTint="@color/black"
+                    android:backgroundTint="#2196F3"
                     android:text="Profile"
                     android:textColor="@color/white"
                     android:id="@+id/profile"
@@ -92,7 +92,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5sp"
-                    android:text="Chicken Burgers"
+                    android:text="Adventure Stories"
                     android:textColor="@color/black"
                     android:textSize="39sp"
                     android:textStyle="bold">
@@ -103,14 +103,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical">
 
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="309dp"
-                    android:layout_height="250sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginLeft="50sp"
                     android:layout_marginTop="30sp"
                     android:layout_marginRight="50sp"
@@ -119,10 +119,10 @@
 
                     <ImageButton
                         android:id="@+id/BBQPISTON"
-                        android:layout_width="309sp"
-                        android:layout_height="250dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/rounded_corner"
-                        android:src="@drawable/burger22">
+                        android:src="@drawable/b1">
 
                     </ImageButton>
 
@@ -141,7 +141,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
                     android:gravity="center"
-                    android:text="BBQ Piston -Crispy"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textStyle="bold">
@@ -152,14 +152,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical">
 
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="309dp"
-                    android:layout_height="250sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginLeft="50sp"
                     android:layout_marginTop="30sp"
                     android:layout_marginRight="50sp"
@@ -168,10 +168,10 @@
 
                     <ImageButton
                         android:id="@+id/crispy1.0"
-                        android:layout_width="309sp"
-                        android:layout_height="250dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/rounded_corner"
-                        android:src="@drawable/burger33">
+                        android:src="@drawable/b2">
 
                     </ImageButton>
 
@@ -191,7 +191,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
                     android:gravity="center"
-                    android:text="Crispy 1.0"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textStyle="bold">
@@ -202,14 +202,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical">
 
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="309sp"
-                    android:layout_height="250sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginLeft="50sp"
                     android:layout_marginTop="30sp"
                     android:layout_marginRight="50sp"
@@ -218,10 +218,10 @@
 
                     <ImageButton
                         android:id="@+id/burger3"
-                        android:layout_width="309sp"
-                        android:layout_height="250dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/rounded_corner"
-                        android:src="@drawable/burger11">
+                        android:src="@drawable/b3">
 
                     </ImageButton>
 
@@ -241,7 +241,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
                     android:gravity="center"
-                    android:text="Chicken Patty"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textStyle="bold">
@@ -252,14 +252,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical">
 
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="309dp"
-                    android:layout_height="250sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginLeft="50sp"
                     android:layout_marginTop="30sp"
                     android:layout_marginRight="50sp"
@@ -268,10 +268,10 @@
 
                     <ImageButton
                         android:id="@+id/burger4"
-                        android:layout_width="309sp"
-                        android:layout_height="250dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/rounded_corner"
-                        android:src="@drawable/burger44">
+                        android:src="@drawable/b4">
 
                     </ImageButton>
 
@@ -291,7 +291,7 @@
                     android:layout_height="match_parent"
                     android:fontFamily="sans-serif-condensed"
                     android:gravity="center"
-                    android:text="Hot Silencer"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textStyle="bold">
