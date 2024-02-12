@@ -10,32 +10,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/coolor"
+        android:background="@drawable/signup"
         android:orientation="vertical">
 
 
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="300sp"
-            android:layout_height="60sp"
-            android:layout_marginTop="50sp"
-            android:layout_gravity="center_horizontal"
-            app:cardBackgroundColor="#FF9800"
-            app:cardCornerRadius="20sp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginLeft="10sp"
-                android:layout_marginVertical="-10dp"
-                android:fontFamily="monospace"
-                android:textStyle="bold"
-                android:text="Welcome !"
-                android:textColor="@color/black"
-                android:textSize="50sp">
-            </TextView>
-        </androidx.cardview.widget.CardView>
 
          <!-- <TextView
             android:layout_width="wrap_content"
@@ -54,9 +34,9 @@
         <androidx.cardview.widget.CardView
             android:layout_width="300sp"
             android:layout_height="380sp"
-            android:layout_marginTop="120sp"
+            android:layout_marginTop="240sp"
             android:layout_gravity="center_horizontal"
-            app:cardBackgroundColor="#FF9800"
+            app:cardBackgroundColor="#6FFFFFFF"
             app:cardCornerRadius="50sp">
 
             <TextView
@@ -77,7 +57,7 @@
                 android:layout_marginLeft="23dp"
                 android:layout_marginTop="60dp"
 
-                android:background="#99FF9800"
+                android:background="#6AFFFFFF"
                 android:text="Mobile Number"
                 android:textColor="@color/black"
                 android:textStyle="bold"
@@ -105,7 +85,7 @@
                 android:layout_marginTop="140dp"
                 android:text="Password"
                 android:textStyle="bold"
-                android:background="#99FF9800"
+                android:background="#6AFFFFFF"
                 android:textColor="@color/black"
                 android:textSize="20dp">
             </TextView>
@@ -130,7 +110,7 @@
                 android:layout_gravity="right"
                 android:id="@+id/login"
                 android:textSize="18sp"
-                android:backgroundTint="@color/black"
+                android:backgroundTint="#2196F3"
                 android:textColor="@color/white"
                 android:layout_marginTop="226sp">
             </Button>
@@ -155,7 +135,7 @@
                 android:id="@+id/register"
                 android:textSize="18sp"
                 android:textColor="@color/white"
-                android:backgroundTint="@color/black"
+                android:backgroundTint="#2196F3"
                 android:layout_marginTop="310sp">
             </Button>
 

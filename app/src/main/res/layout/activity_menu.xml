@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu">
+    tools:context=".menu"
+    tools:ignore="MissingDefaultResource">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
-        android:background="@drawable/colourtemp"
+        android:background="@color/white"
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="39dp"
@@ -21,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#2196F3"
         android:textColor="@color/white"
         android:text="Notifications"
         android:textSize="20sp"
@@ -34,14 +36,14 @@
         android:layout_width="match_parent"
         android:layout_height="60sp"
         android:layout_marginTop="5sp"
-        app:cardBackgroundColor="#80FF9800">
+        app:cardBackgroundColor="#004CAF50">
 
         <Button
             android:layout_width="120sp"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginTop="5sp"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="#2196F3"
             android:textColor="@color/white"
             android:text="Home"
             android:textSize="20sp"
@@ -53,7 +55,7 @@
             android:layout_width="120sp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="#2196F3"
             android:text="Cart"
             android:textSize="20sp"
             android:textColor="@color/white"
@@ -66,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginTop="5sp"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="#2196F3"
             android:textColor="@color/white"
             android:id="@+id/profile"
             android:text="Profile"
@@ -84,8 +86,8 @@
 
 
             <androidx.cardview.widget.CardView
-                android:layout_width="309dp"
-                android:layout_height="221sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="50sp"
                 android:layout_marginTop="30sp"
                 android:layout_marginRight="50sp"
@@ -93,11 +95,11 @@
                 app:cardCornerRadius="50sp">
 
                 <ImageButton
-                    android:layout_width="309sp"
-                    android:layout_height="221dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:id="@+id/chicken"
                     android:background="@drawable/rounded_corner"
-                    android:src="@drawable/menu1">
+                    android:src="@drawable/advvvvvvvvvv">
 
                 </ImageButton>
 
@@ -116,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:gravity="center"
-                android:text="Chicken Burgers"
+                android:text="Adventure Stories"
                 android:textColor="@color/black"
                 android:textSize="40sp"
                 android:textStyle="bold">
@@ -133,8 +135,8 @@
 
 
             <androidx.cardview.widget.CardView
-                android:layout_width="309dp"
-                android:layout_height="221sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="50sp"
                 android:layout_marginTop="30sp"
                 android:layout_marginRight="50sp"
@@ -142,11 +144,11 @@
                 app:cardCornerRadius="50sp">
 
                 <ImageButton
-                    android:layout_width="309sp"
-                    android:layout_height="221dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:id="@+id/vegetable"
                     android:background="@drawable/rounded_corner"
-                    android:src="@drawable/menu2">
+                    android:src="@drawable/love">
 
                 </ImageButton>
 
@@ -165,7 +167,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:gravity="center"
-                android:text="Vegetable Burgers"
+                android:text="Romance"
                 android:textColor="@color/black"
                 android:textSize="40sp"
                 android:textStyle="bold">
@@ -181,8 +183,8 @@
 
 
             <androidx.cardview.widget.CardView
-                android:layout_width="309dp"
-                android:layout_height="221sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="50sp"
                 android:layout_marginTop="30sp"
                 android:layout_marginRight="50sp"
@@ -190,11 +192,11 @@
                 app:cardCornerRadius="50sp">
 
                 <ImageButton
-                    android:layout_width="309sp"
-                    android:layout_height="221dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:id="@+id/drinks"
                     android:background="@drawable/rounded_corner"
-                    android:src="@drawable/menu3">
+                    android:src="@drawable/horrrrrrr">
 
                 </ImageButton>
 
@@ -213,7 +215,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:gravity="center"
-                android:text="Drinks"
+                android:text="Horror"
                 android:textColor="@color/black"
                 android:textSize="40sp"
                 android:textStyle="bold">
